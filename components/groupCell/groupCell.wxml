@@ -1,0 +1,7 @@
+<view class="groupCell">
+  <view class="cell" wx:for="{{cells}}">
+    <image src="{{item.icon}}" class="cellicon"> </image>
+    <view class="celltitle">{{item.title}}</view>
+    <view class="nav">></view>
+  </view>
+</view>

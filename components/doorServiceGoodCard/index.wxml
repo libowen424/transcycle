@@ -1,0 +1,18 @@
+<view class="goodCell">
+  <view class="left">
+    <view class="goodtpye">
+      {{type}}
+    </view>
+    <view class="weight">
+      {{weight}}
+    </view>
+  </view>
+  <view class="right">
+    <view class="price">
+      {{price}}
+    </view>
+    <view bindtap="deleteCell" class="deletebutton">
+      -
+    </view>
+  </view>
+</view>

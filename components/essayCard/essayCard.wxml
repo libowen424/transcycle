@@ -1,0 +1,26 @@
+<view class="essayContainer">
+  <view class="userinfo">
+    <image class="avator" src="{{userAvator}}">
+    </image>
+    <view name_time>
+    <view class="username">
+      {{userName}}
+    </view>
+    <view class="time">
+      {{time}}
+    </view>
+  </view>
+  </view>
+  <view class="essayTitle">
+    {{essayTitle}}
+  </view>
+  <view class="context">
+    {{context}}
+  </view>
+  <view class="photoArea">
+    <view class="photoFrame" wx:for="{{photos.length/3}}" wx:key="index" wx:for-index="i">
+      <image wx:for="{{photos.length-3*i>3?3:photos.length-3*i}}"  wx:for-index="j" src="{{photos[i*3+j]}}"  class="photo" style="height:{{sysWidth/3}}px">
+      </image>
+    </view>
+  </view>
+</view>

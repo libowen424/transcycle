@@ -1,0 +1,56 @@
+.essayContainer
+{
+border: 3rpx solid gray;
+margin: 10rpx;
+}
+.userinfo
+{
+  display: flex;
+}
+.avator
+{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.name_time
+{
+  display: flex;
+  flex-direction: column;
+}
+.username
+{
+  font-weight: 800;
+}
+.time
+{
+  font-size: 10px;
+}
+.essayTitle
+{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 14px;
+  color:rgb(103, 103, 235);
+  font-weight: 800;
+}
+.context
+{
+  margin-top: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.photoArea
+{
+  margin:10px
+}
+.photoFrame
+{
+  display: flex;
+  
+}
+.photo
+{
+  width: 33.3%;
+}
